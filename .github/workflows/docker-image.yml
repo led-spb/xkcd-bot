@@ -8,9 +8,8 @@ on:
 jobs:
 
   build:
-
-    runs-on: edu-code
-
+    runs-on: self-hosted
+    
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
