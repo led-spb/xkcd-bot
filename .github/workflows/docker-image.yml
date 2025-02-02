@@ -22,3 +22,5 @@ jobs:
     steps:
       - name: run compose
         run: docker-compose up -d
+        env:
+          BOT_TOKEN=${{ secrets.BOT_TOKEN }}
