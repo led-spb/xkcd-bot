@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+
+  xkcd-bot:
+      image: xkcd:latest
+      environment:
+        - BOT_TOKEN=${BOT_TOKEN}
