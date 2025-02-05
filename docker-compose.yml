@@ -4,5 +4,6 @@ services:
 
   xkcd-bot:
       image: xkcd:latest
+      restart: unless-stopped
       environment:
         - BOT_TOKEN=${BOT_TOKEN}
